@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0%;
+
+    
+} 
+
+
+  
+.signpage {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 1280px;
+    height: 426px;
+    box-shadow: 5px 10px 20px gray;
+    display: flex; 
+} 
+@media only screen and (max-width: 600px){
+    body{
+        bottom: 0;
+    }
+    .signpage {
+        width:100%;
+    }
+    .signpage .fstdiv {
+        width: 300px;          
+      }    
+      
+    .text  #letter{
+          padding:20px;
+          font-size: 11px;
+          margin-top: 250px;
+      } 
+      #formtext{
+        font-size: 10px;
+        padding: 40px;
+       
+      } 
+      .signform input{
+          padding: 10px;
+      }
+      .next{
+          border-radius: 12px;
+          background-color: #d6eaf8;
+          padding: 3px;
+          text-align: center;
+          text-decoration: none;
+          color: black;
+          width: 100px;
+          box-shadow: 5px 10px 20px gray;
+      }
+      .previous{
+          border-radius: 12px;
+          background-color: #d6eaf8;
+          padding: 3px;
+          text-align: center;
+          text-decoration: none;
+          color: rgb(2, 2, 2);
+          width: 100px;
+          box-shadow: 5px 10px 20px gray;
+      }
+       
+     .signform button{
+        font-size: 10px;
+      } 
+      .signform h5{
+      font-size: 15px;
+      } 
+      .signform .btn{
+          line-height: 20px;
+      }
+      .btn .btn1{
+          font-size: 15px;          
+      } 
+      .btn .btn2{
+         
+          font-size: 15px;
+          
+      } 
+    .signform p{
+        font-size: 15px;
+    } 
+    .signform .butn button{
+        width: 60px;
+    } 
+    .signform #fp{
+        font-size: 15px;
+    } 
+    .butn .float-end{
+       font-size: 14px;
+       line-height: 18px;
+    } 
+    .signform .send-email-btn{
+        width: 100px;
+        height: 30px; 
+        border-radius: 50px;
+    }
+    .text .icon a{
+        
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    body{
+        bottom: 0;
+    }
+    .signpage {
+        width: 100%;
+        min-height: 50vh;
+    }
+    .signpage .fstdiv {
+        display: none;  
+        background: none;     
+      }    
+    .signform{
+        width: 100%;
+        min-height: 50vh;
+    }
+     
+    .signform input{
+          padding: 10px;
+      }
+       
+    .signform button{
+        font-size: 12px;
+      } 
+    .signform h5{
+      font-size: 15px;
+      } 
+    .signform .btn{
+          line-height: 20px;
+      }
+    .btn .btn1{
+          font-size: 15px;          
+      } 
+    .btn .btn2{
+         
+          font-size: 15px;
+          
+      } 
+    .signform p{
+        font-size: 15px;
+    } 
+    .signform .butn button{
+        width: 60px;
+    } 
+    .signform #fp{
+        font-size: 15px;
+    } 
+    .signform .butn .float-end{
+       font-size: 15px;
+       
+    } 
+    .signform .send-email-btn{
+        width: 100px;
+        height: 30px; 
+        border-radius: 50px;
+    }
+    .text .icon a{
+        
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 10px;
+    }
+  }
+
+.fstdiv {
+  width: 640px;
+  height: 426px;
+  box-shadow: 5px 10px 20px gray;
+  
+}
+
+.welpage{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ 
+} 
+
+.signform{
+    background-color:white;
+    width: 640px;
+    height: 426px;
+    box-shadow: 5px 10px 20px gray;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    font-family: "Garamond";
+    
+}
+.welpage .text{
+    background-image: url(../images/2ndsigninbg.jpg);
+    width: 640px;
+    height: 426px;
+}
+
+#letter{
+    padding-top:250px;
+    padding-left: 60px;
+    font-size: 20px;
+    color: white;
+} 
+#formtext{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+ 
+} 
+input{
+    background-color:  #ebedef;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+}
+.next{
+    border-radius: 12px;
+    background-color: #d6eaf8;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    box-shadow: 5px 10px 20px gray;
+}
+.previous{
+    border-radius: 12px;
+    background-color: #d6eaf8;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    width: 100px;
+    box-shadow: 5px 10px 20px gray;
+}
+ 
+button{
+    border-radius: 12px;
+    background-color:#3498db ;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    width: 100px;
+    border: 0px;
+    font-size: 15px;
+    box-shadow: 5px 10px 20px gray;
+} 
+h5{
+font-size: 20px;
+text-align: center;
+font-weight: normal;
+color: #283747;
+} 
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+.btn1{
+    border-radius: 50px 0 0 50px;
+    border-right: 1px solid #ccd1d1;
+    background-color: #f2f3f4 ;
+    font-size: 18px;
+    text-decoration: blink;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+} 
+.btn2{
+    border-radius: 0 50px 50px 0 ;
+    background-color: #f2f3f4 ;
+    font-size: 18px;
+    text-decoration: none;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+} 
+p{
+    color: #808b96;
+}
+form,a{
+    text-decoration: none;
+    color:#808b96;
+}
+form,a:hover{
+    color: #3498db;
+} 
+
+.butn .float-end{
+    float: right!important; 
+} 
+.float-end{
+    line-height: 25px;
+} 
+.send-email-btn{
+    width: 120px;
+    height: 40px; 
+    border-radius: 50px;
+} 
+.bd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20px; 
+} 
+select{
+ color:#808b96;
+ border: 0.3px solid #808b96;
+} 
+.icon a{
+    display: inline-block;
+    margin: 2px;
+    background-color:white;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+} 
+/* for fst div/imgs icon */
+.fi:hover{
+    color: white ;
+    background-color: #1f618d;  
+} 
+.si:hover{
+    color: white ;
+    background-color:#c84bea;  
+} 
+.ti:hover{
+    color: white ;
+    background-color: #3498db ;  
+}
